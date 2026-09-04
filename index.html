@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+<meta name="color-scheme" content="dark">
+<title>BlizzCon Sunday</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0a0a;--ink:#fff5ea;--dim:#b7a99a;--hot:#ff5a1f;--hot2:#ffb300;--cool:#30c6ff;--card:#161312;--line:#2c2523}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans",system-ui,sans-serif;line-height:1.45;overflow-x:hidden}
+h1,h2,h3,.big{font-family:"Bebas Neue",Impact,sans-serif;font-weight:400;letter-spacing:.03em}
+a{color:var(--cool)}
+.cut{position:fixed;inset:0;z-index:0;background:
+ linear-gradient(115deg,var(--hot) 0 18%,transparent 18.2%),
+ linear-gradient(295deg,var(--hot2) 0 9%,transparent 9.2%),
+ repeating-linear-gradient(115deg,transparent 0 22px,rgba(255,90,31,.06) 22px 24px);
+ pointer-events:none}
+main{position:relative;z-index:1}
+section{max-width:960px;margin:0 auto;padding:1.6rem 1rem}
+.hero{min-height:92vh;display:flex;flex-direction:column;justify-content:flex-end;padding-bottom:3rem}
+.hero h1{font-size:clamp(4rem,16vw,12rem);line-height:.86;margin:0;text-shadow:6px 6px 0 var(--hot)}
+.hero h1 span{display:block;color:var(--hot2);text-shadow:6px 6px 0 #000}
+.kick{color:var(--dim);margin:.5rem 0 0;font-size:1rem}
+.hero img{width:100%;max-height:44vh;object-fit:cover;border:3px solid var(--ink);box-shadow:12px 12px 0 var(--hot);margin-bottom:1.2rem;clip-path:polygon(0 0,100% 0,100% 88%,96% 100%,0 100%)}
+.panel{background:var(--card);border:2px solid var(--line);padding:1.3rem;clip-path:polygon(0 0,100% 0,100% calc(100% - 18px),calc(100% - 18px) 100%,0 100%)}
+.panel h2{font-size:2.4rem;margin:0 0 .6rem;color:var(--hot2)}
+.tl{position:relative;display:grid;gap:.6rem}
+.q{display:grid;grid-template-columns:5.2rem 1fr;gap:.8rem;padding:.8rem;border-left:6px solid var(--hot);background:#120f0e;cursor:pointer;transition:transform .12s}
+.q:hover{transform:translateX(4px)}
+.q.ggp{border-color:var(--cool)}.q.fun{border-color:var(--hot2)}
+.q .t{font-family:"Bebas Neue";font-size:1.5rem;line-height:1;color:var(--hot2)}
+.q.ggp .t{color:var(--cool)}
+.q h3{margin:0;font-size:1.7rem;line-height:1}
+.q .w{color:var(--dim);font-size:.85rem;margin:.1rem 0 .3rem}
+.q p{margin:0;font-size:.95rem}
+.q.done{opacity:.45;text-decoration:line-through}
+.legend{display:flex;gap:1rem;flex-wrap:wrap;font-size:.8rem;color:var(--dim);margin:.4rem 0 .8rem}
+.legend i{display:inline-block;width:14px;height:14px;vertical-align:-2px;margin-right:.3rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:.7rem}
+.card{background:#120f0e;border:1px solid var(--line);padding:.9rem}
+.card h3{margin:0;font-size:1.5rem;line-height:1.05}
+.card .w{color:var(--cool);font-size:.8rem;margin:.15rem 0 .35rem}
+.card p{margin:0;font-size:.92rem}
+.loot{list-style:none;padding:0;margin:0;display:grid;gap:.4rem}
+.loot li{display:flex;gap:.6rem;align-items:center;padding:.5rem .7rem;background:#120f0e;border:1px solid var(--line);cursor:pointer}
+.loot li::before{content:"";width:18px;height:18px;border:2px solid var(--hot2);flex:none}
+.loot li.on{color:var(--dim)}
+.loot li.on::before{background:var(--hot2);box-shadow:inset 0 0 0 3px #120f0e}
+.xp{font-family:"Bebas Neue";font-size:2.2rem;color:var(--hot2)}
+.bar{height:12px;background:#1f1a18;border:1px solid var(--line);margin:.3rem 0 .8rem}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--hot),var(--hot2));width:0;transition:width .3s}
+.mur{position:fixed;right:.8rem;bottom:.8rem;z-index:3;background:var(--hot);color:#000;border:0;font-family:"Bebas Neue";font-size:1.4rem;padding:.4rem .9rem;cursor:pointer;box-shadow:4px 4px 0 #000}
+.mur.big{transform:scale(1.15)}
+details{margin-top:1rem}summary{cursor:pointer;color:var(--dim)}
+footer{color:var(--dim);font-size:.8rem;text-align:center;padding:2rem 1rem 5rem}
+@media (max-width:600px){.q{grid-template-columns:1fr}.hero h1{text-shadow:4px 4px 0 var(--hot)}}
+</style>
+</head>
+<body>
+<div class="cut"></div>
+<main>
+<section class="hero">
+  <img src="assets/hero.jpg" alt="Two friends walk into a convention hall while murlocs march across the plaza" onerror="this.style.display='none'">
+  <p class="kick">BlizzCon 2026 · thirty-fifth anniversary · Anaheim Convention Center · Sunday, September 13 · one day, two of us</p>
+  <h1>Sunday<span>only.</span></h1>
+  <p class="kick">For Gordon and Alex. Eleven quests, six people, ten pieces of loot. Tap a quest to mark it done. Blizzard opens internship applications about a month after this, so Sunday is scouting for the Scholars.</p>
+</section>
+
+<section><div class="panel">
+  <h2>The quest log</h2>
+  <div class="legend"><span><i style="background:var(--hot)"></i>logistics</span><span><i style="background:var(--cool)"></i>GGP work</span><span><i style="background:var(--hot2)"></i>the fun</span></div>
+  <div class="tl" id="tl"><div class="q main" data-i="0"><div class="t">7:00am</div><div><h3>Badge pickup</h3><div class="w">Registration, Hall E</div><p>Open 7am to 6pm on Sunday. Bring the Tixr pass on your phone. You get the badge, the wristband and the commemorative items in one stop. Gordon&#x27;s is a comp pass; Floyd Broadnax holds the third.</p></div></div><div class="q main" data-i="1"><div class="t">9:00am</div><div><h3>Doors</h3><div class="w">Show floor</div><p>Show floor runs 9am to 7pm on Sunday. Cashless everywhere. The wifi is Anaheim Free WiFi, do not fight it, tether.</p></div></div><div class="q ggp" data-i="2"><div class="t">9:15am</div><div><h3>Reserve the review slot</h3><div class="w">Room 201C welcome desk</div><p>Portfolio and Resume Reviews are 2pm to 5pm in 201C, first come first served, and you reserve at the welcome desk. Go before anything else. The question to carry: how do CYSTEM Scholars get into this room next year, and can the Directory be the door.</p></div></div><div class="q ggp" data-i="3"><div class="t">10:00am</div><div><h3>Inclusion Nexus</h3><div class="w">South Hall, 2nd floor</div><p>Career conversations and mentorship roundtables. This is the GGP room in all but name. Sit at one roundtable, listen, take one card. Belonging language, not DEI language, when you talk about what we do.</p></div></div><div class="q fun" data-i="4"><div class="t">11:45am</div><div><h3>March of the Murlocs</h3><div class="w">Arena Plaza</div><p>Gather at 11:45, the march is at noon. Thirty-fifth anniversary edition. This is the photo. Mrglglgl.</p></div></div><div class="q fun" data-i="5"><div class="t">12:30pm</div><div><h3>Lunch and the plaza</h3><div class="w">Grand Plaza</div><p>Eat outside. Alex: this is where you tell Gordon the disbursement date and he tells you the Sinjin story.</p></div></div><div class="q fun" data-i="6"><div class="t">1:30pm</div><div><h3>Darkmoon Faire</h3><div class="w">North Hall, 2nd floor</div><p>Games, prizes, the silly hour. Worth thirty minutes, not more.</p></div></div><div class="q ggp" data-i="7"><div class="t">2:00pm</div><div><h3>Portfolio and Resume Reviews</h3><div class="w">Room 201C</div><p>If the slot came through, one of you sits in and watches how Blizzard reviewers give notes. That is the curriculum for the spring pre-GDC portfolio push. Internship applications open around October 13.</p></div></div><div class="q ggp" data-i="8"><div class="t">3:30pm</div><div><h3>The people</h3><div class="w">Where they are</div><p>Arin Goldsmith, Employer Brand Lead, sent the passes; say thank you in person. Cat Kiengsiri, University Relations and Internships. Crystal Mora, early careers. Lexie Cole and Jessie Brown, Talent Attraction. Spike Fu, CYSTEM alum, now Generalist TD in Blizzard Cinematics, meet him on his home turf.</p></div></div><div class="q fun" data-i="9"><div class="t">5:00pm</div><div><h3>Merch</h3><div class="w">North Hall, 1st floor</div><p>Anniversary merch. Buy the thing for Joe, not for you.</p></div></div><div class="q main" data-i="10"><div class="t">6:00pm</div><div><h3>Last lap</h3><div class="w">Show floor</div><p>Esports finals run into the evening on the main stage. Stay for one match, then go. Gordon danced until 11:30 the night before at the DNBNL block party in Commerce.</p></div></div></div>
+</div></section>
+
+<section><div class="panel">
+  <h2>The people</h2>
+  <div class="grid"><div class="card"><h3>Arin Goldsmith</h3><div class="w">Employer Brand Lead, Blizzard</div><p>Arranged the passes. Thank her first.</p></div><div class="card"><h3>Cat Kiengsiri</h3><div class="w">University Relations and Internships</div><p>The internship window opens around October 13. Ask what a Scholar application should look like to her team.</p></div><div class="card"><h3>Crystal Mora</h3><div class="w">Early Careers</div><p>The GVO reimbursement thread. Close the loop in person.</p></div><div class="card"><h3>Lexie Cole and Jessie Brown</h3><div class="w">Talent Attraction</div><p>The Forge the Future mixer is theirs. We miss it on Sunday; ask for the next one.</p></div><div class="card"><h3>Spike Fu</h3><div class="w">CYSTEM alum, Generalist TD, Blizzard Cinematics</div><p>Outcome proof, standing in the building. Get the photo for the Directory.</p></div><div class="card"><h3>Floyd Broadnax</h3><div class="w">The third pass</div><p>Confirm whether he is coming Sunday. If not, the pass can go to a Scholar who can get to Anaheim.</p></div></div>
+</div></section>
+
+<section><div class="panel">
+  <h2>Loot</h2>
+  <div class="xp" id="xp">0 / 10</div><div class="bar"><i id="bar"></i></div>
+  <ul class="loot" id="loot"><li>Badge, wristband, commemorative items</li><li>201C review slot reserved before 10am</li><li>One Inclusion Nexus card</li><li>Murloc march photo, both of you in it</li><li>Spike Fu photo for the Directory</li><li>Arin thanked in person</li><li>Cat&#x27;s answer on the internship window</li><li>Floyd&#x27;s Sunday answer</li><li>Merch for Joe</li><li>Passes linked by Sept 18 (Tixr deadline)</li></ul>
+</div></section>
+
+<section><div class="panel">
+  <h2>What Sunday costs us</h2>
+  <p><b>Saturday 5:30pm, Forge the Future Mixer, Room 201B.</b> Invite-only talent-attraction mixer. We are at the block party. Ask Lexie or Jessie for the next one, or for the guest list to send a Scholar.</p><p><b>Saturday, Community Night.</b> Same answer.</p>
+  <p class="kick">Being there both days would have cost the DNBNL block party. Gordon chose the block party. The mixer is one email away.</p>
+</div></section>
+
+<section><div class="panel">
+  <h2>Why this one, for Alex</h2>
+  <p>This is your first BlizzCon with Gordon and the first time GGP has walked the floor with a Directory to point at. Every recruiter conversation on Sunday is the same conversation: your Scholars, our Directory, their internship window. Three sentences, then listen. The murloc march is mandatory.</p>
+</div></section>
+
+<details><summary>Sources and what is not verified</summary>
+<section><div class="panel">
+<ul>
+<li>Sunday hours, registration in Hall E, Portfolio and Resume Reviews in 201C from 2 to 5, Inclusion Nexus on the South Hall second floor, March of the Murlocs at 11:45, Darkmoon Faire, merch, cashless, wifi, and the September 18 pass-linking deadline: BlizzCon attendee emails in Gordon's Gmail, August and September 2026.</li>
+<li>Pass: Tixr order for a comp pass; Floyd Broadnax named on the third pass in the same thread.</li>
+<li>People: Gordon's email threads with Blizzard talent and university relations, 2026. Titles are as they signed their emails; verify on the badge.</li>
+<li>Spike Fu's role: his own LinkedIn as read for the Scholars outcomes file.</li>
+<li>Internship window "about October 13": from the Directory research notes, not from Blizzard directly.</li>
+<li>Not verified: room numbers can move, the Sunday esports schedule, whether the Inclusion Nexus roundtables run all day.</li>
+</ul>
+</div></section>
+</details>
+<footer>Built by Darby for Gordon and Alex · September 4, 2026 · not indexed</footer>
+</main>
+<button class="mur" id="mur" aria-label="murloc">Mrgl 0</button>
+<script>
+const ls=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))??d}catch(e){return d}};
+const ss=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
+let done=ls('bz.done',[]);document.querySelectorAll('.q').forEach(q=>{q.classList.toggle('done',done.includes(q.dataset.i));q.onclick=()=>{q.classList.toggle('done');done=[...document.querySelectorAll('.q.done')].map(x=>x.dataset.i);ss('bz.done',done);};});
+let loot=ls('bz.loot',[]);const li=[...document.querySelectorAll('#loot li')];
+function xp(){const n=li.filter(x=>x.classList.contains('on')).length;document.getElementById('xp').textContent=n+' / '+li.length;document.getElementById('bar').style.width=(100*n/li.length)+'%';}
+li.forEach((l,i)=>{l.classList.toggle('on',loot.includes(i));l.onclick=()=>{l.classList.toggle('on');loot=li.map((x,j)=>x.classList.contains('on')?j:-1).filter(j=>j>=0);ss('bz.loot',loot);xp();};});xp();
+let m=ls('bz.mur',0);const B=document.getElementById('mur');B.textContent='Mrgl '+m;B.onclick=()=>{m++;ss('bz.mur',m);B.textContent=(m%7==0?'MRGLGLGL ':'Mrgl ')+m;B.classList.add('big');setTimeout(()=>B.classList.remove('big'),120);};
+</script>
+</body>
+</html>
