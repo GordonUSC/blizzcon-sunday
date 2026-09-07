@@ -1,0 +1,92 @@
+[
+  {
+    "id": "badge",
+    "time": "WHEN YOU ARRIVE",
+    "title": "Get through the gate",
+    "place": "Hall E \u00b7 registration 7 a.m.\u20136 p.m.",
+    "kind": "start",
+    "body": "Tixr pass + matching photo ID. Collect badge, wristband and commemorative items. The floor opens at 9.",
+    "official": true
+  },
+  {
+    "id": "reserve",
+    "time": "FIRST STOP",
+    "title": "Ask at 201C",
+    "place": "Second floor \u00b7 welcome desk",
+    "kind": "people",
+    "body": "Review sessions run 2\u20135 p.m. Reserve early if you want one; places are first come, first served. Ask which slot fits your day.",
+    "official": true
+  },
+  {
+    "id": "cozy",
+    "time": "10:45 A.M.",
+    "title": "Crafting Coziness & Creative Freedom",
+    "place": "World of Warcraft \u00b7 check official stage map",
+    "kind": "worlds",
+    "body": "A promising creative detour: how a game makes room for people to feel at home. Suggested pick, not an obligation.",
+    "official": true
+  },
+  {
+    "id": "classic",
+    "time": "CHECK THE LIVE SCHEDULE",
+    "title": "Scout the Classic Cup",
+    "place": "Classic stage \u00b7 Blizzard Arcade",
+    "kind": "play",
+    "body": "StarCraft: Remastered and StarCraft II are part of the cross-game Classic Cup. Watch workers, the growing army, and the map. Ask: where will they go next?",
+    "official": false
+  },
+  {
+    "id": "murloc",
+    "time": "11:45 A.M.",
+    "title": "Join the tiny green army",
+    "place": "Arena Plaza \u00b7 march begins noon",
+    "kind": "play",
+    "body": "Emerald green is this year\u2019s color. Stay for the fountain photo afterward if you feel like it. This overlaps the 11:45 World Building panel: choose your joy.",
+    "official": true
+  },
+  {
+    "id": "lunch",
+    "time": "AFTER THE MARCH",
+    "title": "Lunch. Water. No agenda.",
+    "place": "Choose your own pause",
+    "kind": "rest",
+    "body": "A good day has breathing room. The caf\u00e9 at Inclusion Nexus is another place to recharge. Nothing to complete here.",
+    "official": false
+  },
+  {
+    "id": "review",
+    "time": "YOUR RESERVED SLOT",
+    "title": "One useful conversation",
+    "place": "Room 201C \u00b7 sessions 2\u20135 p.m.",
+    "kind": "people",
+    "body": "Bring your own questions or portfolio. Ask about appropriate pathways for Scholars; observing somebody else\u2019s review requires permission.",
+    "official": true
+  },
+  {
+    "id": "nexus",
+    "time": "WHEN IT FITS",
+    "title": "Find the people behind the worlds",
+    "place": "Inclusion Nexus \u00b7 South Hall, second floor",
+    "kind": "people",
+    "body": "Explore the stage, archives, community spaces and caf\u00e9. Introduce yourself, listen, and keep a follow-up only if it feels worthwhile.",
+    "official": false
+  },
+  {
+    "id": "faire",
+    "time": "A FREE HALF-HOUR",
+    "title": "Take the silly side quest",
+    "place": "Darkmoon Faire \u00b7 North Hall, second floor",
+    "kind": "play",
+    "body": "Games, collectibles and a little wandering. No timer, no mandatory purchase. Let something unexpected catch you.",
+    "official": false
+  },
+  {
+    "id": "finale",
+    "time": "6 P.M.",
+    "title": "One last chorus?",
+    "place": "LE SSERAFIM \u00b7 Main Stage",
+    "kind": "play",
+    "body": "Official Sunday live performance. Stay if you have the energy; leaving happy is also a good ending. Check the latest schedule before heading over.",
+    "official": true
+  }
+]
