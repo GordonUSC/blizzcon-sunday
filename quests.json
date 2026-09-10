@@ -3,34 +3,52 @@
     "id": "badge",
     "time": "WHEN YOU ARRIVE",
     "title": "Get through the gate",
-    "place": "Hall E \u00b7 registration 7 a.m.\u20136 p.m.",
+    "place": "Hall E · registration 7 a.m.–6 p.m.",
     "kind": "start",
-    "body": "Tixr pass + matching photo ID. Collect badge, wristband and commemorative items. The floor opens at 9.",
+    "body": "Tixr pass + matching photo ID. Collect badge, wristband and commemorative items. The floor opens at 9. Laptops are not allowed inside BlizzCon, so keep portfolios on your phone.",
     "official": true
   },
   {
     "id": "reserve",
     "time": "FIRST STOP",
     "title": "Ask at 201C",
-    "place": "Second floor \u00b7 welcome desk",
+    "place": "Second floor · welcome desk",
     "kind": "people",
-    "body": "Review sessions run 2\u20135 p.m. Reserve early if you want one; places are first come, first served. Ask which slot fits your day.",
+    "body": "Review sessions run 2 to 5 p.m. both days. Reserve early if you want one; places are first come, first served. Tell the desk you are Forge the Future pass recipients and collect the pin; Blizzard staff high-five anyone wearing one. If the Friday early sign-up link already booked your slot, this stop is just the pin.",
+    "official": true
+  },
+  {
+    "id": "career",
+    "time": "10:00 A.M.",
+    "title": "Breaking Into a Career in Gaming",
+    "place": "Inclusion Nexus · South Hall, second floor",
+    "kind": "people",
+    "body": "Blizzard professionals on the paths that got them in, for students and career changers. Arin Goldsmith moderates. 10:00 to 10:45.",
     "official": true
   },
   {
     "id": "cozy",
     "time": "10:45 A.M.",
     "title": "Crafting Coziness & Creative Freedom",
-    "place": "World of Warcraft \u00b7 check official stage map",
+    "place": "World of Warcraft · check official stage map",
     "kind": "worlds",
     "body": "A promising creative detour: how a game makes room for people to feel at home. Suggested pick, not an obligation.",
+    "official": true
+  },
+  {
+    "id": "roundtable",
+    "time": "11:15 A.M.",
+    "title": "Power-Up Roundtable Conversations",
+    "place": "Inclusion Nexus · South Hall, second floor",
+    "kind": "people",
+    "body": "Small groups with Blizzard staff across disciplines: careers, creativity, life at Blizzard. Leave by 11:40; the murlocs gather at 11:45.",
     "official": true
   },
   {
     "id": "classic",
     "time": "CHECK THE LIVE SCHEDULE",
     "title": "Scout the Classic Cup",
-    "place": "Classic stage \u00b7 Blizzard Arcade",
+    "place": "Classic stage · Blizzard Arcade",
     "kind": "play",
     "body": "StarCraft: Remastered and StarCraft II are part of the cross-game Classic Cup. Watch workers, the growing army, and the map. Ask: where will they go next?",
     "official": false
@@ -39,9 +57,9 @@
     "id": "murloc",
     "time": "11:45 A.M.",
     "title": "Join the tiny green army",
-    "place": "Arena Plaza \u00b7 march begins noon",
+    "place": "Arena Plaza · march begins noon",
     "kind": "play",
-    "body": "Emerald green is this year\u2019s color. Stay for the fountain photo afterward if you feel like it. This overlaps the 11:45 World Building panel: choose your joy.",
+    "body": "Emerald green is this year’s color. Stay for the fountain photo afterward if you feel like it. This overlaps the 11:45 World Building panel: choose your joy.",
     "official": true
   },
   {
@@ -50,32 +68,32 @@
     "title": "Lunch. Water. No agenda.",
     "place": "Choose your own pause",
     "kind": "rest",
-    "body": "A good day has breathing room. The caf\u00e9 at Inclusion Nexus is another place to recharge. Nothing to complete here.",
+    "body": "A good day has breathing room. The café at Inclusion Nexus is another place to recharge. Nothing to complete here.",
     "official": false
   },
   {
     "id": "review",
     "time": "YOUR RESERVED SLOT",
     "title": "One useful conversation",
-    "place": "Room 201C \u00b7 sessions 2\u20135 p.m.",
+    "place": "Room 201C · sessions 2–5 p.m.",
     "kind": "people",
-    "body": "Bring your own questions or portfolio. Ask about appropriate pathways for Scholars; observing somebody else\u2019s review requires permission.",
+    "body": "Bring your own questions or portfolio. Ask about appropriate pathways for Scholars; observing somebody else’s review requires permission.",
     "official": true
   },
   {
     "id": "nexus",
     "time": "WHEN IT FITS",
     "title": "Find the people behind the worlds",
-    "place": "Inclusion Nexus \u00b7 South Hall, second floor",
+    "place": "Inclusion Nexus · South Hall, second floor",
     "kind": "people",
-    "body": "Explore the stage, archives, community spaces and caf\u00e9. Introduce yourself, listen, and keep a follow-up only if it feels worthwhile.",
+    "body": "Explore the stage, archives, community spaces and café. Introduce yourself, listen, and keep a follow-up only if it feels worthwhile.",
     "official": false
   },
   {
     "id": "faire",
     "time": "A FREE HALF-HOUR",
     "title": "Take the silly side quest",
-    "place": "Darkmoon Faire \u00b7 North Hall, second floor",
+    "place": "Darkmoon Faire · North Hall, second floor",
     "kind": "play",
     "body": "Games, collectibles and a little wandering. No timer, no mandatory purchase. Let something unexpected catch you.",
     "official": false
@@ -84,7 +102,7 @@
     "id": "finale",
     "time": "6 P.M.",
     "title": "One last chorus?",
-    "place": "LE SSERAFIM \u00b7 Main Stage",
+    "place": "LE SSERAFIM · Main Stage",
     "kind": "play",
     "body": "Official Sunday live performance. Stay if you have the energy; leaving happy is also a good ending. Check the latest schedule before heading over.",
     "official": true
